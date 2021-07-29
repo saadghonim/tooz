@@ -659,7 +659,7 @@ html[dir="ltr"] .slider .owl-next {
 /* ***************start Most viewed******************* */
 
 .most_viewed {
-    margin-bottom: 44px;
+    margin-bottom: 50px;
 }
 
 .most_viewed .item {
@@ -868,6 +868,10 @@ html[dir="ltr"] .most_viewed .owl-next {
     .most_viewed {
         margin-bottom: 60px;
     }
+    .off_ {
+        font-size: 11px;
+        justify-content: center;
+    }
 }
 
 
@@ -886,7 +890,7 @@ html[dir="ltr"] .most_viewed .owl-next {
 
 @media(max-width:767px) {
     .banner {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 }
 
@@ -1006,6 +1010,15 @@ html[dir="ltr"] .special_div .off_ {
     }
     html[dir="ltr"] .special_pr {
         padding: 30px 30px 30px 20px;
+    }
+    html[dir="rtl"] .special_div .off_ {
+        right: 10px
+    }
+    html[dir="ltr"] .special_div .off_ {
+        left: 10px;
+    }
+    .special {
+        margin-bottom: 40px;
     }
 }
 
@@ -1253,6 +1266,9 @@ html[dir="ltr"] .ul_toolse li {
     .shorakaa {
         margin-bottom: 70px;
     }
+    .shorakaa .title_header {
+        margin-bottom: 40px;
+    }
 }
 
 
@@ -1268,6 +1284,10 @@ html[dir="ltr"] .ul_toolse li {
 
 .Testimonials .owl-carousel .owl-item img {
     max-width: 100%!important;
+}
+
+.Testimonials .title_header {
+    margin-bottom: 60px;
 }
 
 .comment_div {
@@ -1296,18 +1316,20 @@ html[dir="ltr"] .comment_div p {
 
 html[dir="rtl"] .comment_div h4 {
     text-align: right;
+    padding-right: 47px;
 }
 
 html[dir="ltr"] .comment_div h4 {
     text-align: left;
+    padding-left: 47px;
 }
 
 html[dir="rtl"] .comment_div {
-    padding: 38px 81px 50px 45px;
+    padding: 38px 45px 50px 45px;
 }
 
 html[dir="ltr"] .comment_div {
-    padding: 38px 45px 50px 81px;
+    padding: 38px 45px 50px 45px;
 }
 
 .name_ {
@@ -1489,6 +1511,7 @@ html[dir="ltr"] .input_div input {
     font-size: 16px;
     font-family: "NeoSansArabic";
     color: rgb(255, 255, 255);
+    transition: .5s;
 }
 
 html[dir="rtl"] .bt_input {
@@ -1529,6 +1552,19 @@ html[dir="ltr"] .fa-envelope {
 @media(max-width:767px) {
     .newsletter .input_div {
         width: 80%;
+    }
+    .title_header {
+        margin-bottom: 30px;
+    }
+    .bt_input {
+        position: static;
+        background-color: rgb(204, 204, 204);
+    }
+    .bt_input:hover {
+        background-color: rgb(29, 29, 27);
+    }
+    .input_div input {
+        margin-bottom: 15px;
     }
 }
 
