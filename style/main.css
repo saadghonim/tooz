@@ -1103,7 +1103,7 @@ html[dir="rtl"] .ul_toolse {
 }
 
 html[dir="ltr"] .ul_toolse {
-    left: auto;
+    left: 50%;
 }
 
 .anc_hover:hover .ul_toolse {
@@ -1213,6 +1213,12 @@ html[dir="ltr"] .ul_toolse li {
     }
     html[dir="ltr"] .anc_toolse {
         margin-right: 0;
+    }
+    html[dir="rtl"] .ul_toolse {
+        left: auto;
+    }
+    html[dir="ltr"] .ul_toolse {
+        left: auto;
     }
 }
 
