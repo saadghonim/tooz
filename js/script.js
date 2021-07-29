@@ -106,4 +106,10 @@ $(document).ready(function() {
         /* ***************end Testimonials********  */
 
 
+    /* ****************start wow ******************** */
+    new WOW().init();
+    document.documentElement.style.setProperty('--animate-duration', '.5s');
+    /* ****************end wow ******************** */
+
+
 })
