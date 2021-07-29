@@ -862,7 +862,7 @@ html[dir="ltr"] .most_viewed .owl-next {
         margin-right: 5px;
     }
     .most_viewed .owl-carousel button.owl-dot.active {
-        background-color: rgb(255, 255, 255);
+        background-color: #d9261c;
     }
     .view_title {
         margin-bottom: 30px;
