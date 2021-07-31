@@ -444,6 +444,8 @@ html[dir="ltr"] .input-search .ico_ {
     }
     .nav_ul .anc_nav {
         margin: 0 0 15px 0;
+        display: flex;
+        justify-content: center;
     }
     html[dir="rtl"] .navbar_ .lang {
         margin-right: 15px;
@@ -883,6 +885,7 @@ html[dir="ltr"] .most_viewed .owl-next {
     .off_ {
         font-size: 11px;
         justify-content: center;
+        padding: 0 2px;
     }
 }
 
@@ -1034,6 +1037,9 @@ html[dir="ltr"] .special_div .off_ {
     }
     html[dir="ltr"] .special_div .off_ {
         left: 10px;
+    }
+    .special_div .off_ {
+        padding: 0 2px;
     }
     .special {
         margin-bottom: 40px;
@@ -1197,6 +1203,8 @@ html[dir="ltr"] .ul_toolse li {
 @media(max-width:1200px) {
     .anc_hover {
         position: relative;
+        width: 100%;
+        text-align: center;
     }
     .ul_toolse {
         width: auto;
@@ -1213,6 +1221,7 @@ html[dir="ltr"] .ul_toolse li {
         flex-wrap: unset;
         transform: none;
         transition: none;
+        margin-bottom: 10px;
     }
     html[dir="rtl"] .ul_toolse {
         left: auto;
@@ -1610,6 +1619,16 @@ html[dir="rtl"] .anc_social {
 
 html[dir="ltr"] .anc_social {
     margin-right: 10px;
+}
+
+.anc_social img {
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.anc_social img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
 }
 
 .footer_nav {
