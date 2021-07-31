@@ -219,12 +219,29 @@ html[dir="ltr"] .dropbtn-lang img {
     transition: .5s;
 }
 
+.dropdown-content-rl::after,
+.dropdown-content-lang::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+    opacity: 1;
+}
+
 .dropdown-content-rl {
     top: 35px;
 }
 
 html[dir="rtl"] .dropdown-content-rl {
-    right: -60px;
+    right: -64px;
 }
 
 html[dir="ltr"] .dropdown-content-rl {
@@ -275,6 +292,14 @@ html[dir="ltr"] .dropdown-content-rl {
     opacity: 1;
     visibility: visible;
     transition: .5s;
+}
+
+.dropdown-lang {
+    position: relative;
+}
+
+.dropdown-content-lang {
+    top: 34px
 }
 
 .modal-body {
@@ -1133,6 +1158,22 @@ html[dir="ltr"] .special_div .off_ {
     opacity: 0;
     visibility: hidden;
     transition: .7s;
+}
+
+.ul_toolse::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.3s;
+    opacity: 1;
 }
 
 html[dir="rtl"] .ul_toolse {
