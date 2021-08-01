@@ -568,6 +568,9 @@
         .dropdown-content-lang::after {
             opacity: 0;
         }
+        .dropdown-lang:hover .dropdown-content-lang {
+            transition: none;
+        }
     }
     /* ************************end header********************* */
     /* ************************start slider******************* */
@@ -768,7 +771,7 @@
     
     .shopping .price {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     
     .price span {
