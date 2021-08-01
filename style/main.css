@@ -1152,6 +1152,10 @@ html[dir="ltr"] .special_div .off_ {
     height: 78px;
 }
 
+.anc_shorakaa img {
+    max-width: 100%;
+}
+
 .shorakaa .owl-carousel .owl-nav button.owl-next,
 .shorakaa .owl-carousel .owl-nav button.owl-prev {
     position: absolute;
@@ -1265,13 +1269,14 @@ html[dir="ltr"] .ul_toolse li {
 .anc_toolse img {
     margin-bottom: 5px;
     transition: .5s;
-    border: 1px solid transparent;
     border-radius: 10px;
     width: 180px;
+    height: 180px;
+    border: 1px solid rgb(238, 238, 238);
 }
 
 .anc_toolse img:hover {
-    border: 1px solid rgb(103, 103, 103);
+    border-color: rgb(103, 103, 103);
 }
 
 .anc_toolse:hover {
