@@ -1592,6 +1592,9 @@ html[dir="ltr"] .Testimonials .owl-next {
     .Testimonials .owl-carousel button.owl-dot.active {
         background-color: #d9261c;
     }
+    .Testimonials .owl-nav {
+        display: none;
+    }
 }
 
 @media(max-width:576px) {
