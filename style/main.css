@@ -771,7 +771,7 @@
     
     .shopping .price {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
     }
     
     .price span {
@@ -803,11 +803,15 @@
         color: rgb(255, 255, 255);
     }
     
-    html[dir="rtl"] .price span {
+    html[dir="ltr"] .price p {
+        margin-right: 5px;
+    }
+    
+    html[dir="rtl"] .price p {
         margin-left: 5px;
     }
     
-    html[dir="ltr"] .price span {
+    html[dir="ltr"] .price p {
         margin-right: 5px;
     }
     
@@ -951,6 +955,9 @@
         .title_header {
             font-size: 22px;
         }
+        .shopping .price {
+            flex-direction: column-reverse;
+        }
     }
     /* ***************end Most viewed********************* */
     /* ***************start banner******************** */
@@ -1037,6 +1044,7 @@
     
     .shopping_special .price {
         display: flex;
+        flex-direction: row-reverse;
     }
     
     .bt_special {
@@ -1112,8 +1120,12 @@
         margin-bottom: 90px;
     }
     
-    .shorakaa a {
-        display: inline-block;
+    .anc_shorakaa {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .shorakaa img {
