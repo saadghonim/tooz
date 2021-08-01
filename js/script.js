@@ -8,7 +8,9 @@ $(document).ready(function() {
     $(".anc_hover").click(function() {
         $(".ul_toolse").slideToggle(400);
     })
-
+    $(".dropdown-lang").click(function() {
+        $(".dropdown-content-lang").slideToggle(400);
+    })
 
     /* ************************end navbar******************* */
 
@@ -41,11 +43,12 @@ $(document).ready(function() {
     /* ************************end slider******************* */
 
     /* ***************start Most-viewed******************* */
+    console.log($("html").attr("dir"))
     $('.most_viewed .owl-carousel').owlCarousel({
         loop: true,
         margin: 15,
         nav: true,
-        rtl: true,
+        rtl: $("html").attr("dir") == "rtl" ? true : false,
         stagePadding: 6,
         navText: ["<i class='fas fa-arrow-right'></i>", "<i class='fas fa-arrow-left'></i>"],
         responsive: {
