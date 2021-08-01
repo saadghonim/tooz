@@ -1039,7 +1039,6 @@
         display: flex;
         justify-content: space-between;
         border-top: 1px solid rgb(246 245 243);
-        padding-top: 15px;
     }
     
     html[dir="rtl"] .special_div .off_ {
@@ -1053,6 +1052,7 @@
     .shopping_special .price {
         display: flex;
         flex-direction: row-reverse;
+        align-items: center;
     }
     
     .bt_special {
