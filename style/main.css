@@ -1151,7 +1151,7 @@ html[dir="ltr"] .special_div .off_ {
     width: 1140px;
     transform: translateX(-50%);
     top: 15%;
-    display: flex;
+    display: none;
     padding: 45px;
     padding-bottom: 15px;
     flex-wrap: wrap;
@@ -1262,7 +1262,7 @@ html[dir="ltr"] .ul_toolse li {
         flex-wrap: unset;
         transform: none;
         transition: none;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     html[dir="rtl"] .ul_toolse {
         left: auto;
