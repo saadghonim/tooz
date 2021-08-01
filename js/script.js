@@ -43,7 +43,7 @@ $(document).ready(function() {
     /* ***************start Most-viewed******************* */
     $('.most_viewed .owl-carousel').owlCarousel({
         loop: true,
-        margin: 30,
+        margin: 15,
         nav: true,
         rtl: true,
         stagePadding: 6,
@@ -91,6 +91,7 @@ $(document).ready(function() {
             margin: 10,
             nav: true,
             rtl: true,
+            navText: ["<i class='fas fa-arrow-right'></i>", "<i class='fas fa-arrow-left'></i>"],
             responsive: {
                 0: {
                     items: 1
