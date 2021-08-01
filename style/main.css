@@ -774,6 +774,14 @@
         flex-direction: row-reverse;
     }
     
+    html[dir="rtl"] .shopping .price {
+        padding-right: 5px;
+    }
+    
+    html[dir="ltr"] .shopping .price {
+        padding-left: 5px;
+    }
+    
     .price span {
         font-size: 18px;
         font-family: "NeoSansArabic";
