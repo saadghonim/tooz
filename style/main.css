@@ -476,6 +476,7 @@
         .nav_ul {
             flex-direction: column;
             justify-content: center;
+            padding-top: 30px;
         }
         .nav_ul .anc_nav {
             margin: 0 0 15px 0;
