@@ -2,8 +2,19 @@ $(document).ready(function() {
 
     /* ************************start navbar******************* */
 
-    $(".navbar_bt_bar ").click(function() {
+    $(".navbar_bt_bar").click(function() {
         $(".navbar_").slideToggle(500);
+        $(".moboverlay").fadeIn('500');
+        $(".bars_icon").addClass("close_");
+    });
+
+    $(".moboverlay").click(function() {
+        $(".navbar_").slideToggle(500);
+        $(".moboverlay").fadeOut('500');
+        $(".bars_icon").removeClass("close_");
+
+
+
     });
     $(".anc_hover").click(function() {
         $(".ul_toolse").slideToggle(400);

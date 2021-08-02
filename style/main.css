@@ -476,7 +476,6 @@
         .nav_ul {
             flex-direction: column;
             justify-content: center;
-            margin-bottom: 40px;
         }
         .nav_ul .anc_nav {
             margin: 0 0 15px 0;
@@ -602,7 +601,7 @@
         position: absolute;
         transform: translateY(-50%);
         top: 50%;
-        font-size: 18px;
+        font-size: 16px;
         color: rgb(29, 29, 27);
         border-radius: 50%;
         background-color: rgb(255, 255, 255);
@@ -679,7 +678,7 @@
     /* *********************start Products****************** */
     
     .Products {
-        margin-bottom: 20px;
+        margin-bottom: 60px;
     }
     
     .prod_div {
@@ -740,10 +739,10 @@
     
     .view_pr .anc_view {
         display: flex;
-        font-size: 18px;
+        font-size: 16px;
         font-family: "NeoSansArabic";
         color: rgb(29, 29, 27);
-        padding: 20px 15px 20px;
+        padding: 13px 14px 17px;
         text-align: center;
     }
     
@@ -765,22 +764,22 @@
     }
     
     html[dir="rtl"] .shopping .price {
-        padding-right: 5px;
+        padding-right: 8px;
     }
     
     html[dir="ltr"] .shopping .price {
-        padding-left: 5px;
+        padding-left: 8px;
     }
     
     .price span {
-        font-size: 18px;
+        font-size: 16px;
         font-family: "NeoSansArabic";
         color: rgb(189, 189, 189);
         text-decoration: line-through;
     }
     
     .price p {
-        font-size: 18px;
+        font-size: 16px;
         font-family: "NeoSansArabic";
         color: rgb(29, 29, 27);
         font-weight: 500;
@@ -845,8 +844,8 @@
     .most_viewed .owl-carousel .owl-nav button.owl-prev {
         position: absolute;
         transform: translateY(-50%);
-        top: 32%;
-        font-size: 18px;
+        top: 45%;
+        font-size: 16px;
         color: rgb(29, 29, 27);
         border-radius: 50%;
         background-color: rgb(255, 255, 255);
@@ -994,7 +993,7 @@
     }
     
     .special {
-        margin-bottom: 70px;
+        margin-bottom: 100px;
         position: relative;
         z-index: 99;
     }
@@ -1052,9 +1051,9 @@
     
     .bt_special_b {
         background-color: rgb(103, 103, 103);
-        width: 168px;
-        height: 50px;
-        font-size: 19px;
+        width: 160px;
+        height: 44px;
+        font-size: 16px;
         font-family: "NeoSansArabic";
         color: rgb(255, 255, 255);
         border-radius: 25px;
@@ -1062,7 +1061,7 @@
         align-items: center;
         justify-content: center;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 10px;
         transition: .5s;
     }
     
@@ -1096,10 +1095,10 @@
             padding: 20px 10px 15px 10px;
         }
         html[dir="rtl"] .special_div .off_ {
-            right: 10px
+            right: 5px
         }
         html[dir="ltr"] .special_div .off_ {
-            left: 10px;
+            left: 5px;
         }
         .special_div .off_ {
             padding: 0 2px;
@@ -1143,7 +1142,7 @@
     }
     
     .shorakaa .title_header {
-        margin-bottom: 70px;
+        margin-bottom: 35px;
     }
     
     .shorakaa .owl-nav {
@@ -1165,7 +1164,7 @@
         position: absolute;
         transform: translateY(-50%);
         top: 45%;
-        font-size: 18px;
+        font-size: 16px;
         color: rgb(29, 29, 27);
         border-radius: 50%;
         background-color: rgb(255, 255, 255);
@@ -1405,7 +1404,7 @@
     }
     
     .Testimonials .title_header {
-        margin-bottom: 60px;
+        margin-bottom: 35px;
     }
     
     .comment_div {
@@ -1513,8 +1512,8 @@
     .Testimonials .owl-carousel .owl-nav button.owl-prev {
         position: absolute;
         transform: translateY(-50%);
-        top: 32%;
-        font-size: 18px;
+        top: 45%;
+        font-size: 16px;
         color: rgb(29, 29, 27);
         border-radius: 50%;
         background-color: rgb(255, 255, 255);
@@ -1666,9 +1665,9 @@
         position: absolute;
         background-color: rgb(29, 29, 27);
         width: 128px;
-        height: 43px;
+        height: 37px;
         border-radius: 21.5px;
-        top: 1px;
+        top: 4px;
         font-size: 16px;
         font-family: "NeoSansArabic";
         color: rgb(255, 255, 255);
@@ -1680,11 +1679,11 @@
     }
     
     html[dir="rtl"] .bt_input {
-        left: 1px;
+        left: 5px;
     }
     
     html[dir="ltr"] .bt_input {
-        right: 1px;
+        right: 5px;
     }
     
     html[dir="ltr"] .bt_input i {
@@ -1732,7 +1731,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 45px 0 20px;
+        padding: 60px 0 20px;
     }
     
     .social_meida {
@@ -1823,3 +1822,31 @@
         }
     }
     /* ***************end footer************ */
+    
+    .moboverlay {
+        position: fixed;
+        display: none;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 9;
+        overflow: hidden;
+    }
+    
+    .bars_:after {
+        font-family: "Font Awesome 5 Free";
+        content: "\f0c9";
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .close_:after {
+        font-family: "Font Awesome 5 Free";
+        content: "\f00d";
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: 900;
+    }
